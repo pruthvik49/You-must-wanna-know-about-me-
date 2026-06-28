@@ -1,4 +1,27 @@
-:root {
-  --Ink_primary: #201d1d;
+@import "tailwindcss";
 
+@theme {
+  --font-jetbrains: "JetBrainsMono", monospace;
+}
+
+
+:root {
+  --Ink_primary: #302c2c;
+
+}
+*{
+  box-sizing: border-box;
+  font-family: "JetBrainsMono", monospace;
+  color: #f8f7f7;
+}
+
+html, body, #root {
+  margin: 0;
+  width: 100%;
+  min-height: 100dvh;
+}
+
+body{
+  background: var(--Ink_primary);
+  overflow-x: hidden;
 }

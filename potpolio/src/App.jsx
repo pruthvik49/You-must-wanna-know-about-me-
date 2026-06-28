@@ -1,14 +1,13 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 const App = () => {
   return (
-    <div>
-        
-<h1 className="font-jbm4 text-4xl font-bold">
-  OpenCode Style
-</h1>
+    <>
+<Navbar />
 
-    </div>
+
+    </>
   )
 }
 
